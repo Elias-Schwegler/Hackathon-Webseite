@@ -32,16 +32,14 @@
     margin-top: 35px;
     font-family: 'Orbitron', sans-serif;
   }
-
   .Slogan {
-    font-size: 2.3vw;
+    font-size: 3vw;
     color: white;
     margin-top: 20px;
-    margin-bottom: 60px;
-    line-height: 0.5 em;
-    font-style: bold;
     font-family: 'Orbitron', sans-serif;
-    text-align: center;
+  }
+  h3, h4 {
+    font-family: 'Orbitron', sans-serif;
   }
   
   /*Navigation*/
@@ -49,13 +47,9 @@
       text-decoration: none;
       color: white;
   }
-  h3, h4 {
-    font-family: 'Orbitron', sans-serif;
-  }
-
   
   .Buttons{
-     background-color: rgba(203, 33, 255,0.7888);
+     background-color: rgba(0, 71, 6, 0.888);
      display:flex;
      justify-content: space-around;
      padding: 5px;
@@ -64,7 +58,7 @@
   }
   
   .WhiteBorder {
-    margin-top: 60px;
+    margin-top: 20px;
     width: 100%;
     height: 10px;
     display: flex;
@@ -77,86 +71,62 @@
     background-color: white;
   }
   
+    /* Content */
   
-  /* Body */
+    .AboutUs-Panel{
+        background-color: rgba(1, 57, 26, 0.8);
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+        position:relative;
+        display: flex;
+        justify-content: space-around;
   
-  .FavProducts{
-    height: auto;
-    background-color: rgba(203, 33, 255,0.7888);
-  
-  }
-  
-  .ProductsGrid1{
-  background-color: rgba(203, 33, 255,0.7888);
-  height: 250px;
-  }
-  .IMG{
-  height: 220px;
-  width: 100%;
-  }
-  img{
-  border-radius: 20px;
-  }
-  .TXT{
-  height:60px ;
-  width: 100%;
-  margin-top: 20px;
-  background-color: rgba(0, 128, 0, 0);
-  display:flex;
-  justify-content: center; 
-  color: white;
-  }
-  .IMGCAMO{
-  width: 100%;
-  height: 100%;
-  }
-  .ProductsGrid2{
-  background-color: rgba(255, 255, 0, 0);
-  height: 250px;
-  }
-  .ProductsGrid3{
-  background-color: rgba(203, 33, 255,0.7888);
-  height: 250px;
-  }
-  .Events{
-  margin-top: 100px;
-  height: auto;
-  background-color: rgba(203, 33, 255,0.7888);
-  }
-  .Event1{
-  background-color: rgba(255, 242, 0, 0);
-  height: auto;
-  }
-  .Event2{
-  background-color: rgba(255, 242, 0, 0);
-  height: auto;
-  }
-  video{
-  border-radius: 30px;
-  }
-  .Mov{
-  height: 100%;
-  width: 100%;
-  }
-  
-  /*Footer*/
-  
-  .Footer{
-  margin-top: 100px;
-  height: auto;
-  background-color: rgba(203, 33, 255,0.7888);
-  }
-  .TXTf{
-    height:60px ;
-    width: 100%;
-    margin-top: 60px;
-    background-color: rgba(0, 128, 0, 0);
-    display:flex;
-    justify-content: center; 
-    color: white;
     }
+      .AboutUsText{
+          width: 85%;
+          height: auto;
+          margin-top: 50px;
+          margin-bottom: 50px;;
+          background-color: white;
+          border-radius: 30px;
+          display: flex;
+          align-items:center;
+          padding: 20px;
+          line-height: 2em;
+          font-size: 1.2em;
   
+  }
+  .txt{
+    padding: 20px;
+    line-height: 2em;
+  }
+  h5{
+      padding-left: 5%;
+      margin-top: 5%;
+      font-size: 2em;
+  }
   
+    /* footer */
+    .Footer{
+      margin-top: 100px;
+      height: auto;
+      background-color: rgba(5, 57, 34, 0.708);
+      }
+      .TXTf{
+        height:60px ;
+        width: 100%;
+        margin-top: 60px;
+        background-color: rgba(0, 128, 0, 0);
+        display:flex;
+        justify-content: center; 
+        color: white;
+        }
+      
+  
+    
+    /* rgba(1, 57, 26, 0.9); */
+    
   @media only screen and (min-width: 300px) {
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
